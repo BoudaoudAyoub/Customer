@@ -1,0 +1,11 @@
+﻿global using Serilog;
+global using MediatR;
+global using System.Net;
+global using System.Reflection;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using CustomerMan.API.Infrastructure;
+global using CustomerMan.API.Application.Models;
+global using CustomerMan.Domain.DomainExceptions;
+global using Microsoft.AspNetCore.Server.Kestrel.Core;
+global using CustomerMan.API.Infrastructure.Extensions;
